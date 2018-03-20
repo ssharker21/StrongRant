@@ -1,7 +1,8 @@
-var AreaofMath = ["Algebra_1", "Geometry", "Trigonometry", "Algebra_2", "PreCalculus", "Calculus AB", "Calculus BC", "Probability and Statistics", "Differential Equations", "Linear Algebra"];
+var AreaofMath = ["Algebra 1", "Geometry", "Trigonometry", "Algebra 2", "Pre-Calculus", "Calculus AB", "Calculus BC", "Probability and Statistics", "Differential Equations", "Linear Algebra"];
 var SynonymofEasy = ["easy", "invigorating", "uncomplicated", "undemanding", "painless", "effortless", "simple", "elementary", "facile", "straightforward"];
 
-var AreaofMath = AreaofMath[Math.floor(Math.random() * 10)];
-var SynonymofEasy = SynonymofEasy[Math.floor(Math.random() * 10)];
+var OneAreaofMath = AreaofMath[Math.floor(Math.random() * 10)];
+var OneSynonymofEasy = SynonymofEasy[Math.floor(Math.random() * 10)];
 
-var Rant = "THAT" + "" + "AreaofMath" + "" + "was so" + "" + "SynonymofEasy"
+var Rant = "THAT " + OneAreaofMath + " was so " + OneSynonymofEasy
+alert(Rant); // You can chnage this to something else later
